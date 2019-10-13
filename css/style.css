@@ -1,0 +1,38 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script|Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/header.css");
+@import url("components/box1.css");
+@import url("components/box2.css");
+@import url("components/footer.css");
+@import url("components/flex.css");
+
+/* General style rules for fonts and colors */
+body {
+  background-image : url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+  color: white;
+  position: relative;
+  padding-bottom: 150px;
+}
+@media (max-width: 520px) {
+body{	
+  padding-bottom: 250px;
+}
+}	
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: white;
+}

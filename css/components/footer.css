@@ -1,0 +1,87 @@
+.footer{
+	background-image : url(../../images/footer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	font-family: 'Dancing Script', cursive;
+}
+.footer h3{
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+.list-footer{
+list-style: none;
+padding-left: 80px;
+line-height: 40px;
+font-size: 30px;
+}
+.list-footer h1{
+font-size: 30px;
+line-height:0px;
+}
+
+.list-inline-footer{
+list-style: none;
+padding-left: 0px;
+}
+.list-inline-footer li {
+display: inline;
+padding: 10px;
+}
+.list-inline-footer i {
+font-size: 40px;
+color: red;
+}
+.list-inline-footer i:hover {
+color: white;
+}
+
+.flex-footer {
+display : flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.footer-right{
+position: absolute;
+right:10px;
+margin-right: 120px;
+}
+
+.footer-logo{
+position: absolute;
+left: 45%;
+}
+@media (max-width: 900px) {
+.footer-logo{
+display: none;
+}
+}
+
+@media (max-width: 800px) {
+.footer-right{
+margin-right: 20px;
+}
+}
+
+@media (max-width: 520px) {
+  /* For a screen < 420px, this CSS will be read */
+ .flex-footer {
+display: block;
+padding: 0px 0px;
+text-align: center;
+}
+.list-footer{
+list-style: none;
+padding-left: 0px;
+}
+.footer-right{
+position: relative;
+height: auto;
+margin-right: 0px;
+}
+}

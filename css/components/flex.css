@@ -1,0 +1,12 @@
+.flex {
+  display: flex;
+  align-items: center;
+  padding: 0px 150px;
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+ .flex {
+	display:block;
+	padding: 0px 0px;
+}
+}

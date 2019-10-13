@@ -1,0 +1,64 @@
+.banner {
+  /* 1. Set a background image */
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url(../../images/landing1.jpg);   
+  /* 2. Make the background image cover the banner div */
+	background-size: cover;     
+  /* 3. Center the image */
+	background-position: center;
+	padding: 150px 0x; 
+	width: 1000px;
+	height: 250px;
+	margin: 0 auto;
+	border-radius: 4px;                        /* Small radius */
+	box-shadow: 0 10px 30px rgba(0,0,0,1);
+}
+
+.banner h1 {
+  color: white;
+  font-size: 50px;
+  padding: 0px 15px;
+}
+.banner h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-bottom: 40px;
+  padding: 0px 15px;
+}
+
+.center{
+text-align: center;
+padding: 0px 150px;
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .center {
+ padding: 0px 15px;
+  }
+}
+.center h3{
+  line-height: 30px;
+  font-weight: lighter;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .banner {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .banner {
+    width: 500px;
+	height: 270px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .banner {
+    width: 300px;
+	height: 315px;
+  }
