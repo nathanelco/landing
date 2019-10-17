@@ -3,8 +3,22 @@
   align-items: center;
   padding: 0px 150px;
 }
-@media (max-width: 1520px) {
+@media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
+ .flex {
+	display:block;
+	padding: 0px 0px;
+}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+ .flex {
+	display:block;
+	padding: 0px 0px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
  .flex {
 	display:block;
 	padding: 0px 0px;
