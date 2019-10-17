@@ -11,16 +11,3 @@
 }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
- .flex {
-	display:block;
-	padding: 0px 0px;
-}
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
- .flex {
-	display:block;
-	padding: 0px 0px;
-}
-}
